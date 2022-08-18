@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+Header{
+    width: 100%;
+    height: 165px;
+    position: relative;
+    background-color: rgb(247, 240, 228);
+    
+    
+}
+
+.navbar{
+    /* background-color: pink; */
+    width: 50%;
+    height: 200px;
+    margin: 0 100px ;
+    display: flex;
+    position: absolute;
+    left: 400px;
+}
+.info-navbar{
+    background-color: wheat;
+    width: 80px;
+    height: 30px ;
+    border: outset 2px;
+    text-align: center;
+    margin: 10px 0;
+}
+.info-navbar p{
+    Margin-top: 5px;
+}
+body{
+    width: 100%;
+    max-height:800px;
+    background-color: rgb(247, 240, 228);
+}
+.main-top{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.main-top h2{
+    color: brown;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-undertop{
+    width: 100%;
+    height: 20px;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.main-center{
+    width: 75%;
+    height: 500px;
+    /* background-color:pink; */
+    margin-left: 250px;
+}
+.imgs{
+    /* background-color:chocolate; */
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+}
+.main-bottom{
+    width: 75%;
+    height: 300px;
+    /* background-color: pink; */
+    display: flex;
+    margin-left: 150px;
+    
+}
+.main-bottom-left{
+    width: 70%;
+    height: 100%;
+    margin-right: 10px;
+    /* background-color: cadetblue; */
+}
+.caption{
+    /* background-color: coral; */
+    width: 100%;
+    height: 30px;
+    text-align: left;
+}
+.caption h4{
+    color: cadetblue;
+    margin: 5px 0;
+}
+.infor{
+    text-align: left;
+    
+}
+.icon i{
+    font-size: 35px;
+    margin: 20px 20px 0 0;
+}
+Footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(237, 217, 220);
+    box-sizing: border-box;
+    border: 2px solid palegoldenrod;
+}
+.form-sign{
+    width: 75%;
+    height: 100%;
+    margin-left: 100px;
+}
+.form-cap{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    
+}
+.form-in{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+    border-radius: 4px;
+            
+}
+/* .form-cap h3  {
+    color: white;
+}
+.form-cap p  {
+    color: white;
+}
+table p{
+    color: aliceblue;
+} */
+.button button{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: outset;
+    margin-left: 20px;
+}
+Footer::before {
+    content: " ";
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 36px;
+    background: linear-gradient(#ffffff 0%, transparent 0%), linear-gradient(135deg, #ffffff 33.33%, #b8b7b700 33.33%) 0 0%, #edc8ba linear-gradient(45deg, #b1806c 33.33%, #c47e7e 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+}
+.imgmini{
+    width: 300px;
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 740px ) and (max-width: 1023px){
+    Header{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        
+    }
+    .navbar{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        /* right: 10px; */
+        left: 100px;
+    }
+    .info-navbar{
+        font-size: 12px;
+    }
+    .main-top{
+        height: 100px;
+        width: 100%;
+        font-size: 5px;
+        display: inline-block;
+    }
+    .imgs{
+        width: 150px;
+        margin: 10px;
+        height: 100px;
+        display: inline-block;
+    }
+    .imgmini{
+        width: 150px;
+    }
+    .main-center{
+        margin-left:140px;
+        margin-top: 20px;
+        height: 250px;
+    }
+    .main-bottom{
+        height: 400px;    
+    }
+}
+
+/*Iphone(390 x 844)*/
+@media screen and (max-width: 739px){
+    Header{         
+        width: 100%;
+        height: 180px;
+        position: relative;
+        
+    }
+    .navbar{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        left: 10px;
+        margin: 0;
+    }
+    .info-navbar{
+        font-size: 5px;
+    }
+    .main-top{
+        height: 100px;
+        width: 100%;
+    }
+    .imgs{
+        width: 150px;
+        margin: 10px;
+        height: 100px;
+        display: inline-block;
+    }
+    .imgmini{
+        width: 150px;
+    }
+    .main-center{
+        margin-left:140px;
+        margin-top: 20px;
+        height: 250px;
+    }
+    .main-bottom{
+        height: 400px;    
+    }
+}
+
+

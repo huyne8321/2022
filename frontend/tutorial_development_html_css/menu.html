@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/icons/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            }
+
+        .grid {
+            width: 1200px;
+            max-width: 100%;
+            margin: 0 auto;
+            }
+        .grid__full-width {
+            width: 100%;
+            }
+        .grid__row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -5px;
+            margin-right: -5px;
+            }
+
+        .grid__column-2-4 {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 20%;
+            }
+        .header__top {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #ffd400;
+            padding-top: 10px;
+            }
+        .header__logo-img {
+            height: 40px;
+            }
+        .header__locate {
+            background-color: #ffbc06;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            width: 136px;
+            height: 40px;
+            font-size: 13px;
+            }
+
+        .header__address {
+            font-weight: 600;
+            }
+        .header__search {
+            background-color: #fff;
+            height: 40px;
+            border-radius: 4px;
+            padding: 0 8px;
+            }
+        .search__input {
+            outline: none;
+            border: none;
+            height: 100%;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            /* padding-left: 8px; */
+            }
+        .header__history-order {
+            font-size: 12px;
+            background-color: #ffbc06;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            height: 40px;
+            width: 96px;
+            padding: 6px 16px;
+            color: #333;
+            cursor: pointer;
+            }
+        .cart__icon {
+            font-size: 18px;
+            margin-top: 1px;
+            padding-right: 8px;
+            }
+        .header__cart{
+            font-size: 13px;
+            font-weight: 600;
+            background-color: #ffbc06;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            height: 40px;
+            padding: 6px 16px;
+            cursor: pointer;
+            }
+        .header__tech-blog {
+            border-right: #ffe56c 1px solid;
+            color: #333;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            }
+        .header__question {
+            border-right: #ffe56c 1px solid;
+            color: #333;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            }
+        .header__game-app {
+            color: #333;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            }  
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="header__top">
+            <div class="header__logo">
+                <img class="header__logo-img" src="https://upload.wikimedia.org/wikipedia/vi/thumb/8/8d/The_gioi_di_dong_logo.svg/1280px-The_gioi_di_dong_logo.svg.png" alt="">
+            </div>
+            <button class="header__locate">
+                <span>Xem giá, tồn kho tại:</span>
+                <span class="header__address">Hà Nội</span>
+            </button>
+            <div class="header__search">
+                <input type="text" class="search__input" placeholder="Bạn tìm gì...">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <button class="header__history-order">Lịch sử đơn hàng</button>
+            <button class="header__cart">
+                <i class="cart__icon fa-solid fa-cart-shopping"></i>
+                <span>Giỏ hàng</span>   
+            </button>
+            <a href="" class="header__tech-blog">24h Công nghệ</a>
+            <a href="" class="header__question">Hỏi Đáp</a>
+            <a href="" class="header__game-app">Game App</a>
+        </div>
+        <div class="header__main">
+
+        </div>
+    </header>
+</body>
+</html>
